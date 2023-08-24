@@ -1,8 +1,6 @@
 const request = require('supertest');
 const app = require('../app'); // Replace with the path to your Express app
 
-const appearedNums = []
-
 function getRandomInt(max) {
     return Math.floor(Math.random() * max);
 }
@@ -42,5 +40,4 @@ describe('Unique number API test', () => {
       }
   });
 
-  
 });
